@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="ccf," />
 
 
 
@@ -79,17 +79,23 @@
 
 
 
-<meta name="description" content="爱生活，爱编程">
+<meta name="description" content="问题描述 题目来源 CCF-CSP-202112-1：序列查询 题目背景  题目描述  输入格式  输出格式 样例1输入3 102 5 8Data样例1输出15  解题思路令 $N&#x3D;A_{n+1}$ ，则有:  0&#x3D;A_{0}">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test">
+<meta property="og:title" content="CCF 202112题解">
 <meta property="og:url" content="http://example.com/2022/03/24/test/index.html">
 <meta property="og:site_name" content="passer__的杂货铺">
-<meta property="og:description" content="爱生活，爱编程">
+<meta property="og:description" content="问题描述 题目来源 CCF-CSP-202112-1：序列查询 题目背景  题目描述  输入格式  输出格式 样例1输入3 102 5 8Data样例1输出15  解题思路令 $N&#x3D;A_{n+1}$ ，则有:  0&#x3D;A_{0}">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://r9a4e75pn.hb-bkt.clouddn.com/1.png?e=1648179653&amp;token=DQWgjdcmtAP5f9tpFq1qMUaobao8_skrpYj4ZdnD:Re2kYOp7yxThW1IP2ch__o91xjc=">
+<meta property="og:image" content="http://r9a4e75pn.hb-bkt.clouddn.com/2.png?e=1648179653&amp;token=DQWgjdcmtAP5f9tpFq1qMUaobao8_skrpYj4ZdnD:u4dK9O_aHDz5a9-YbfbvwDe2AUM=">
+<meta property="og:image" content="http://r9a4e75pn.hb-bkt.clouddn.com/3.png?e=1648179653&amp;token=DQWgjdcmtAP5f9tpFq1qMUaobao8_skrpYj4ZdnD:M-v0YMKzJ44x-JAI0oj0hC66Jmg=">
+<meta property="og:image" content="http://r9a4e75pn.hb-bkt.clouddn.com/4.png?e=1648179653&amp;token=DQWgjdcmtAP5f9tpFq1qMUaobao8_skrpYj4ZdnD:0A5975ZJkd8uhhtOWWmroQMpiQ0=">
 <meta property="article:published_time" content="2022-03-24T03:18:41.000Z">
-<meta property="article:modified_time" content="2022-03-24T03:18:41.172Z">
+<meta property="article:modified_time" content="2022-03-25T03:47:08.414Z">
 <meta property="article:author" content="小pa">
+<meta property="article:tag" content="ccf">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://r9a4e75pn.hb-bkt.clouddn.com/1.png?e=1648179653&amp;token=DQWgjdcmtAP5f9tpFq1qMUaobao8_skrpYj4ZdnD:Re2kYOp7yxThW1IP2ch__o91xjc=">
 
 
 
@@ -125,7 +131,7 @@
 
 
 
-  <title>test | passer__的杂货铺</title>
+  <title>CCF 202112题解 | passer__的杂货铺</title>
   
 
 
@@ -190,42 +196,42 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
+        <li class="menu-item menu-item-关于">
           <a href="/about/%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            About
+            关于
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-tags">
+        <li class="menu-item menu-item-标签">
           <a href="/tags/%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            Tags
+            标签
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-categories">
+        <li class="menu-item menu-item-分类">
           <a href="/categories/%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            Categories
+            分类
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/%20" rel="section">
+        <li class="menu-item menu-item-搜索">
+          <a href="/schedule/%20" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
             
-            Archives
+            搜索
           </a>
         </li>
       
@@ -261,6 +267,7 @@
   
   
   
+
   <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/24/test/">
 
@@ -279,7 +286,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">test</h1>
+          <h1 class="post-title" itemprop="name headline">CCF 202112题解</h1>
         
 
         <div class="post-meta">
@@ -329,7 +336,26 @@
       
 
       
-        
+        <span id="more"></span>
+<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><ul>
+<li>题目来源 <a target="_blank" rel="noopener" href="http://118.190.20.162/view.page?gpid=T138" title="CCF-CSP-202112-1：序列查询">CCF-CSP-202112-1：序列查询</a></li>
+<li>题目背景 <img src="http://r9a4e75pn.hb-bkt.clouddn.com/1.png?e=1648179653&amp;token=DQWgjdcmtAP5f9tpFq1qMUaobao8_skrpYj4ZdnD:Re2kYOp7yxThW1IP2ch__o91xjc=" alt=""></li>
+<li>题目描述 <img src="http://r9a4e75pn.hb-bkt.clouddn.com/2.png?e=1648179653&amp;token=DQWgjdcmtAP5f9tpFq1qMUaobao8_skrpYj4ZdnD:u4dK9O_aHDz5a9-YbfbvwDe2AUM=" alt=""></li>
+<li>输入格式 <img src="http://r9a4e75pn.hb-bkt.clouddn.com/3.png?e=1648179653&amp;token=DQWgjdcmtAP5f9tpFq1qMUaobao8_skrpYj4ZdnD:M-v0YMKzJ44x-JAI0oj0hC66Jmg=" alt=""></li>
+<li>输出格式 <img src="http://r9a4e75pn.hb-bkt.clouddn.com/4.png?e=1648179653&amp;token=DQWgjdcmtAP5f9tpFq1qMUaobao8_skrpYj4ZdnD:0A5975ZJkd8uhhtOWWmroQMpiQ0=" alt=""><br>样例1输入<br>3 10<br>2 5 8<br>Data<br>样例1输出<br>15</li>
+</ul>
+<h1 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h1><p>令 $N=A_{n+1}$ ，则有:</p>
+<script type="math/tex; mode=display">
+0=A_{0}<A_{1}<\cdots<A_{i}<\cdots<A_{n}<A_{n+1}=N</script><p>对于 $A_{i} \leq x&lt;A_{i+1}, 0 \leq i \leq n$ ，有 $f(x)=i$ 。则:</p>
+<script type="math/tex; mode=display">
+\operatorname{sum}(A)=\sum_{i=0}^{n}\left(\left(A_{i+1}-A_{i}\right) * i\right)</script><p>以题目中的样例一 $(n=3)$ 为例:</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\operatorname{sum}(A) &=\sum_{i=0}^{3}\left(\left(A_{i+1}-A_{i}\right) * i\right) \\
+&=\left(A_{1}-A_{0}\right) * 0+\left(A_{2}-A_{1}\right) * 2+\left(A_{3}-A_{2}\right) * 2+\left(A_{4}-A_{3}\right) * 3 \\
+&=(2-0) * 0+(5-2) * 1+(8-5) * 2+(10-8) * 3 \\
+&=15
+\end{aligned}</script>
       
     </div>
     
@@ -353,6 +379,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ccf/" rel="tag"><i class="fa fa-tag"></i> ccf</a>
+          
+        </div>
       
 
       
@@ -415,16 +447,26 @@
       <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
+	
 
   <aside id="sidebar" class="sidebar">
     
     <div class="sidebar-inner">
-
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1857630559&auto=1&height=66"></iframe>
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -437,7 +479,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/%20%7C%7C%20archive">
+                <a href="/archives">
               
                   <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
@@ -447,6 +489,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
             
 
           </nav>
@@ -466,6 +517,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0"><span class="nav-number">1.</span> <span class="nav-text">问题描述</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF"><span class="nav-number">2.</span> <span class="nav-text">解题思路</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -661,10 +728,12 @@
   
 
   
+  
+
 
   
 
   
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false});</script></body>
 </html>
